@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 19 09:16:40 2025
+def check_type(variable):
+    print(f"The type of the variable is: {type(variable)}")
+x = 10            
+y = 3.14
+z = "HUCISA"        
+a = True
 
-@author: female
-"""
-
-name="Blackie"
-age=25
-language="Python"
-print(f"My name is {name}.\nI am {age} years old.\nI Love {language} programming.")
+check_type(x)
+check_type(y)
+check_type(z)
+check_type(a)
